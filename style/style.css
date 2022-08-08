@@ -287,10 +287,6 @@ transition: all 0.3s ease 0s;
         }
 }
 
-
-
-
-
 .page {
     flex: 1 1 auto;
 }
@@ -945,7 +941,7 @@ line-height: 16px;
     opacity: 0;
     visibility: hidden;
     /* для прокрутки внутри окна */
-    overflow-y: auto;
+    overflow-y: hidden;
     overflow-x: hidden;
     transition: 0.8s;
 }
